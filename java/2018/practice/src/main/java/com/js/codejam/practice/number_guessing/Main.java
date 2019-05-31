@@ -2,7 +2,7 @@ package com.js.codejam.practice.number_guessing;
 
 import com.js.codejam.utils.CodeJam;
 
-public class Main  extends CodeJam {
+public class Main extends CodeJam {
 
     //*******************
     // Private Members **
@@ -46,7 +46,7 @@ public class Main  extends CodeJam {
                 max = result == Result.TOO_BIG ? guess : max;
                 min = result == Result.TOO_SMALL ? guess : min;
 
-            } while(!(result == Result.CORRECT));
+            } while(result != Result.CORRECT)   ;
 
         }
     }

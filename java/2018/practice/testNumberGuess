@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python src/test/resources/number_guessing_testing_tool.py java -classpath ../../utils/target/utils-1.0.jar:target/classes/ com.js.codejam.practice.number_guessing.Main
