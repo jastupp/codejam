@@ -7,6 +7,14 @@
     <groupId>com.jas.codejam</groupId>
     <artifactId>2018.practice</artifactId>
     <version>1.0</version>
+    <dependencies>
+        <dependency>
+            <groupId>com.js.codejam</groupId>
+            <artifactId>utils</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>
