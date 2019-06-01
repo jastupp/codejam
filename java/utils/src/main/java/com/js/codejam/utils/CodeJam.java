@@ -9,10 +9,6 @@ public class CodeJam {
     //*******************
     private Scanner mScanner;
 
-    //*********************
-    // Protected Methods **
-    //*********************
-
     /**
      * Get the next string from the scanner
      *
@@ -40,9 +36,6 @@ public class CodeJam {
      */
     protected int readInt() { return scanner().nextInt(); }
 
-    //*******************
-    // Private Members **
-    //*******************
 
     /**
      * Create the scanner
