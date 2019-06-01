@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed37999e-0fc9-4746-b988-c00bf8406c3f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/js/codejam/practice/number_guessing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/js/codejam/practice/number_guessing/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/js/codejam/practice/number_guessing/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/practice/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/practice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/practice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/testNumberGuess" beforeDir="false" afterPath="$PROJECT_DIR$/practice/testNumberGuess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../utils/src/main/java/com/js/codejam/utils/CodeJam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../utils/src/main/java/com/js/codejam/utils/CodeJam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/src/main/java/com/js/codejam/practice/cruise/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/practice/src/main/java/com/js/codejam/practice/cruise/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/practice/target/" />
@@ -79,8 +73,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/practice/src/main/java/com/js/codejam/practice/cruise/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="121">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,6 +116,7 @@
         <option value="$PROJECT_DIR$/practice/src/main/java/com/js/codejam/practice/senate/Party.java" />
         <option value="$PROJECT_DIR$/../utils/src/main/java/com/js/codejam/utils/CodeJam.java" />
         <option value="$PROJECT_DIR$/practice/src/main/java/com/js/codejam/practice/senate/Solution.java" />
+        <option value="$PROJECT_DIR$/practice/src/main/java/com/js/codejam/practice/cruise/Solution.java" />
       </list>
     </option>
   </component>
@@ -271,13 +270,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.js.codejam.practice.number_guessing.Main" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.js.codejam.practice.number_guessing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.js.codejam.practice.cruise.Solution" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.js.codejam.practice.cruise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,6 +312,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main" />
       </list>
@@ -316,16 +329,15 @@
       <option name="presentableId" value="Default" />
       <updated>1559260617211</updated>
       <workItem from="1559260618502" duration="4501000" />
-      <workItem from="1559266567200" duration="7063000" />
+      <workItem from="1559266567200" duration="9102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11564000" />
+    <option name="totallyTimeSpent" value="13603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="941" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3791209" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -336,7 +348,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32979977" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46760896" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46760896" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -416,8 +428,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/src/main/java/com/js/codejam/practice/cruise/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="121">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
